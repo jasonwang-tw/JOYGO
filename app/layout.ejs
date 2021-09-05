@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <%- title %>
+  </title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <header class="bg-main text-white p-5">
+    <div class="flex items-center justify-between">
+      <div class="w-1/3"><img src="./assets/images/logo.png" alt=""></div>
+      <div><span class="border rounded-3xl text-xs px-2 py-1">揪團全台買透透</span></div>
+    </div>
+    <div class="flex items-center mt-3">
+      <div><i class="bi bi-list text-2xl"></i></div>
+      <div class="mx-3 relative w-full"><input type="text" name="" id="" class="rounded-3xl px-3 py-2 w-full"
+          placeholder="搜尋"><i class="bi bi-search absolute top-2 right-3 text-gray-300"></i></div>
+      <div class="w-12"><img src="./assets/images/talk.png" alt=""></div>
+    </div>
+  </header>
+  <%- contents %>
+
+    <footer class="footer">
+
+    </footer>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+.line {
+  border-color: $line;
+}
+.text-main {
+  color: $main;
+}
+.text-yellow {
+  color: $yellow;
+}
+.text-red {
+  color: $red;
+}
+.text-purple {
+  color: $purple;
+}
+.bg-main {
+  background-color: $main;
+}
+.bg-yellow {
+  background-color: $yellow;
+}
+.bg-red {
+  background-color: $red;
+}
+.bg-purple {
+  background-color: $purple;
+}
+.text-shadow-red {
+  text-shadow: 0.1rem 0.1rem 0.5rem $red-500;
+}
+
+// slick
+
+.slick-list {
+  padding-bottom: 0.5rem;
+}
+.slick-slide {
+  margin: 0 0.25rem;
+}
