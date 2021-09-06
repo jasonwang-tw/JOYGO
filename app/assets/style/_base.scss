@@ -37,3 +37,22 @@
 .slick-slide {
   margin: 0 0.25rem;
 }
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0;
+  li {
+    padding: 0.25rem;
+    color: transparent;
+    display: inline-block;
+    &:before {
+      color: #000;
+      content: "●";
+      font-size: 1rem;
+      display: inline-block;
+    }
+  }
+  li.slick-active:before {
+    color: gray;
+  }
+}
