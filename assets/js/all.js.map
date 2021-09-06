@@ -1,1 +1,1 @@
-{"version":3,"sources":["all.js"],"names":["$","slick","slidesToShow","slidesToScroll","dots","centerPadding"],"mappings":";;AACAA,CAAC,CAAC,eAAD,CAAD,CAAmBC,KAAnB,CAAyB;AACvBC,EAAAA,YAAY,EAAE,CADS;AAEvBC,EAAAA,cAAc,EAAE,CAFO;AAGvBC,EAAAA,IAAI,EAAE,IAHiB;AAIvBC,EAAAA,aAAa,EAAE;AAJQ,CAAzB","file":"all.js","sourcesContent":["\r\n$('.24hr_content').slick({\r\n  slidesToShow: 3,\r\n  slidesToScroll: 3,\r\n  dots: true,\r\n  centerPadding: 10,\r\n});"]}
+{"version":3,"sources":["all.js"],"names":[],"mappings":"AAAA","file":"all.js","sourcesContent":[""]}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .line {
   border-color: #dcdcdc; }
 
@@ -34,11 +35,30 @@
 .slick-slide {
   margin: 0 0.25rem; }
 
+.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0.5rem 0; }
+  .slick-dots li {
+    padding: 0.25rem;
+    color: transparent;
+    display: inline-block; }
+    .slick-dots li:before {
+      color: #000;
+      content: "●";
+      font-size: 1rem;
+      display: inline-block; }
+  .slick-dots li.slick-active:before {
+    color: gray; }
+
 html,
 body {
   font-weight: 400;
-  font-size: 12px;
-  overflow-x: hidden; }
+  font-size: 12px; }
 
 .nav_tab img {
   width: 35px; }
@@ -75,7 +95,7 @@ body {
     border-color: white; }
 
 .nav_fu .nav_fu_item .item_icon {
-  width: 45px; }
+  width: 35px; }
 
 .nav_fu .nav_fu_item:after {
   content: " ";
@@ -92,6 +112,18 @@ body {
   border-color: white; }
 
 .sale .block_title {
-  margin-top: calc(-1rem - 3px); }
+  margin-top: calc(-1rem - 0px); }
+  .sale .block_title img {
+    width: 350px; }
+
+.time {
+  top: -0.5px; }
+  .time .h,
+  .time .m,
+  .time .s {
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    display: inline-block; }
 
 /*# sourceMappingURL=all.css.map */
